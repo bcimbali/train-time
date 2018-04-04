@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'transit-gradient';
+    src: url('./../fonts/America Faster Gradient.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '3dFont';
+    src: url('./../fonts/America Faster Light.ttf') format('truetype');
+}
+
+.body {
+    background-image: url("./../images/train-tracks-forest.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 2%;
+}
+
+.gradient-font {
+    font-family: 'transit-gradient', arial;
+}
+
+.threeD-font {
+    font-family: '3dFont', arial;
+}
+
+.jumbotron {
+    background-color: rgb(117, 187, 117);
+}

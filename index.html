@@ -12,6 +12,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -24,15 +25,15 @@
 
   </head>
 
-  <body>
+  <body class="body">
 
     <!-- Train Tracker -->
     <div class="container">
 
       <!-- Jumbotron -->
-      <div class="jumbotron" style="background-color: black; color: white">
-        <h1 class="text-center">Train Tracker</h1>
-        <h3 class="text-center">Stayin' on time...</h3>
+      <div class="jumbotron">
+        <h1 class="gradient-font text-center">Train Tracker</h1>
+        <h3 class="text-center threeD-font">Stayin' on time...</h3>
       </div>
 
       <div class="row">
@@ -40,7 +41,7 @@
         <div class="col-lg-12">
 
         <!-- Current Trains-->
-          <div class="panel panel-primary">
+          <div class="panel panel-success">
             <div class="panel-heading">
               <h3 class="panel-title"><strong>Current Train Schedule</strong></h3>
             </div>
@@ -62,7 +63,7 @@
           </div>
 
           <!-- Add Train  -->
-          <div class="panel panel-primary">
+          <div class="panel panel-success">
             <div class="panel-heading">
               <h3 class="panel-title"><strong>Add Train</strong></h3>
             </div>
@@ -86,7 +87,7 @@
                   <label for="frequency-input">Frequency (min)</label>
                   <input class="form-control js-frequency-input" id="frequency-input" type="text">
                 </div>
-                <button class="btn btn-primary js-add-train" id="add-employee-btn" type="submit">Submit</button>
+                <button class="btn btn-success js-add-train" id="add-employee-btn" type="submit">Submit</button>
               </form>
 
             </div>
