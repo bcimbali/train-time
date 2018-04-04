@@ -6,6 +6,10 @@ This is an app that allows you to add new trains and will display their arrival 
 
 https://bcimbali.github.io/train-time/
 
+## Screenshot:
+
+![train-tracker-screenshot][https://github.com/bcimbali/Responsive-Portfolio/blob/master/assets/images/train_tracker_screenshot.PNG?raw=true]
+
 ## Built with:
 
 - HTML
