@@ -8,7 +8,7 @@ https://bcimbali.github.io/train-time/
 
 ## Screenshot:
 
-![train-tracker-screenshot][https://github.com/bcimbali/Responsive-Portfolio/blob/master/assets/images/train_tracker_screenshot.PNG?raw=true]
+![train-tracker-screenshot](https://github.com/bcimbali/Responsive-Portfolio/blob/master/assets/images/train_tracker_screenshot.PNG?raw=true)
 
 ## Built with:
 
